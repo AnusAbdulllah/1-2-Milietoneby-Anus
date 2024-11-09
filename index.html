@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple Resume builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>static resume builder by Anus</h1>
+    <form id="resumeform"> 
+          <fieldset>
+            <legend>Personal information</legend>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required > <br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required ><br>
+            
+            <label for="phone number">Phone: </label>
+            <input type="phone" id="phone" name="phone number" required><br>
+            
+            <label for="Personal profile picture"></label>
+            <input type="file" id="profilepicture" name ="Profile picture "  accept="image/*"  required><br>
+   
+           </fieldset>
+
+           <fieldset>
+            <legend>Education</legend>  
+            <textarea id="education" name="Education" rows="4" required></textarea>
+           </fieldset>
+
+           <fieldset>
+            <legend>Experience</legend>  
+            <textarea id="Experience" name="Experience" rows="4" required></textarea>
+           </fieldset>
+
+           <fieldset>
+            <legend>Skill</legend>  
+            <textarea id="Skill" name="Skill" rows="4" required></textarea>
+           </fieldset>
+           <button type="submit"> Generate Resume Below </button>
+    </form> 
+    
+</body>
+</html>
